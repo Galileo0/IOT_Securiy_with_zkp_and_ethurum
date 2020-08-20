@@ -1,0 +1,109 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_index",
+				"type": "uint256"
+			}
+		],
+		"name": "get_sensors_data",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"type": "function",
+		"stateMutability": "nonpayable"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "get_sensors_data_count",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"type": "function",
+		"stateMutability": "nonpayable"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_temp",
+				"type": "string"
+			},
+			{
+				"name": "_gas",
+				"type": "string"
+			},
+			{
+				"name": "_motion",
+				"type": "string"
+			},
+			{
+				"name": "_time",
+				"type": "string"
+			}
+		],
+		"name": "set_values",
+		"outputs": [
+			{
+				"name": "",
+				"type": "int256"
+			}
+		],
+		"payable": false,
+		"type": "function",
+		"stateMutability": "nonpayable"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "sensors_struct",
+		"outputs": [
+			{
+				"name": "temp",
+				"type": "string"
+			},
+			{
+				"name": "gas",
+				"type": "string"
+			},
+			{
+				"name": "motion",
+				"type": "string"
+			},
+			{
+				"name": "time",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"type": "function",
+		"stateMutability": "view"
+	}
+]
